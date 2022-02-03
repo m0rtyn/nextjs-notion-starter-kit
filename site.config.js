@@ -64,7 +64,7 @@ module.exports = {
     '/morning-deprivation': '8d5db95a969d492b9fa41c5b430dc0ee',
     '/timeblocking': 'cb4f49b93dcd4439a597cfb8b90064ac',
     '/shut-up-and-become-social': 'Shut-up-and-become-social-f5df4231ace94f50940f9435f754709e',
-    '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
+    // '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
     '/how-to-smart-status-of-notion-project': 'Notion-1864c1b8c47a4aea8539a3750ee55c3f'
   }
 }
