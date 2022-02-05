@@ -65,6 +65,8 @@ module.exports = {
     '/timeblocking': 'cb4f49b93dcd4439a597cfb8b90064ac',
     '/shut-up-and-become-social': 'Shut-up-and-become-social-f5df4231ace94f50940f9435f754709e',
     // '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
-    '/how-to-smart-status-of-notion-project': 'Notion-1864c1b8c47a4aea8539a3750ee55c3f'
+    '/how-to-smart-status-of-notion-project': 'Notion-1864c1b8c47a4aea8539a3750ee55c3f',
+    '/consumption-manifest': '3fd526745e9b4b8380e320f8c42992cc',
+    '/refusing': '510decd7cbe647ee9f9cc46d409f933e'
   }
 }
