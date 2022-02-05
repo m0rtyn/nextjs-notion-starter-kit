@@ -12,9 +12,9 @@ module.exports = {
   author: 'Martyn',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'So Meta',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: '',
+  socialImageTitle: 'Такая Мета',
+  socialImageSubtitle: '',
 
   // social usernames (optional)
   twitter: 'somartyn',
@@ -37,17 +37,12 @@ module.exports = {
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
   // variables specified in .env.example
-  isPreviewImageSupportEnabled: false,
+  isPreviewImageSupportEnabled: true,
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
-  // example:
-  //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
   pageUrlOverrides: {
+    // '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
     '/how-to-telegram': '46178f7d27af48cdb010db70f6c98a28',
     '/martyn-talks': '782a5fea22a4480bba8bc7b38a6be099',
     '/sleep-deprivation-pandemic': '22b9a1e384e54d9f96efbde5d52f77b1',
@@ -64,7 +59,6 @@ module.exports = {
     '/morning-deprivation': '8d5db95a969d492b9fa41c5b430dc0ee',
     '/timeblocking': 'cb4f49b93dcd4439a597cfb8b90064ac',
     '/shut-up-and-become-social': 'Shut-up-and-become-social-f5df4231ace94f50940f9435f754709e',
-    // '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
     '/how-to-smart-status-of-notion-project': 'Notion-1864c1b8c47a4aea8539a3750ee55c3f',
     '/consumption-manifest': '3fd526745e9b4b8380e320f8c42992cc',
     '/refusing': '510decd7cbe647ee9f9cc46d409f933e',
