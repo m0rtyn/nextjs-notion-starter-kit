@@ -67,6 +67,8 @@ module.exports = {
     // '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
     '/how-to-smart-status-of-notion-project': 'Notion-1864c1b8c47a4aea8539a3750ee55c3f',
     '/consumption-manifest': '3fd526745e9b4b8380e320f8c42992cc',
-    '/refusing': '510decd7cbe647ee9f9cc46d409f933e'
+    '/refusing': '510decd7cbe647ee9f9cc46d409f933e',
+    '/about-martyn': '2cf42d7feb0141eeb82b25cb2c773537',
+    '/about': 'f59b55e86351417586b9f142cb016c5e'
   }
 }
