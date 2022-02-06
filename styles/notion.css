@@ -129,6 +129,17 @@
   margin: 2em 0;
 }
 
+.notion-search-button:after {
+  content: "⌘ + P";
+  display: flex;
+  align-items: center;
+  color: var(--notion-gray);
+  margin-left: 12px;
+  border: 1px solid var(--notion-gray);
+  border-radius: 8px;
+  padding: 2px 4px;
+}
+
 @media only screen and (max-width: 920px) {
   .index-page.notion-page {
     padding-left: 2vw;
@@ -330,12 +341,16 @@
 .notion-header {
   background: hsla(0, 0%, 100%, 0.8);
   backdrop-filter: saturate(180%) blur(16px);
+  box-shadow: none;
+  background-color: var(--bg-color);
 }
 
 .dark-mode .notion-header {
   background: transparent;
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   backdrop-filter: saturate(180%) blur(8px);
+  box-shadow: none;
+  background-color: var(--bg-color);
 }
 
 .notion-bookmark:hover {
