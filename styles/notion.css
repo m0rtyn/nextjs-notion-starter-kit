@@ -343,6 +343,7 @@
   backdrop-filter: saturate(180%) blur(16px);
   box-shadow: none;
   background-color: var(--bg-color);
+  opacity: 0.96;
 }
 
 .dark-mode .notion-header {
