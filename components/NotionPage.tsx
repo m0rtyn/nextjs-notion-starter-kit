@@ -133,7 +133,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
     (block.parent_table === 'block' || block.parent_table === 'collection')
 
   const showTableOfContents = !!isBlogPost
-  console.log('🚀 ~ showTableOfContents', showTableOfContents)
   const minTableOfContentsItems = 3
 
   const socialImage = mapNotionImageUrl(
