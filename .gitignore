@@ -34,4 +34,4 @@ yarn-error.log*
 
 # vercel
 .vercel
-google-credentials.json
+someta-image-previews-*.json
