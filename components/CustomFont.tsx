@@ -14,20 +14,11 @@ export const CustomFont: React.FC<{ site: types.Site }> = ({ site }) => {
     .map((font) => `family=${font}:ital,wght@0,200..700;1,200..700`)
     .join('&')
   const googleFontsLink = `https://fonts.googleapis.com/css?${googleFontFamilies}&display=swap`
-  const cssFontFamilies = fontFamilies.map((font) => `"${font}"`).join(', ')
 
   return (
     <>
       <Head>
         <link rel='stylesheet' href={googleFontsLink} />
-
-        <style>{`
-          .notion.notion-app {
-            font-family: ${cssFontFamilies}, -apple-system, BlinkMacSystemFont,
-              'Segoe UI', Helvetica, 'Apple Color Emoji', Arial, sans-serif,
-              'Segoe UI Emoji', 'Segoe UI Symbol';
-          }
-        `}</style>
       </Head>
     </>
   )
