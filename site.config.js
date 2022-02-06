@@ -12,9 +12,9 @@ module.exports = {
   author: 'Martyn',
 
   // open graph metadata (optional)
-  description: 'Статьи для осознания себя со стороны. Мышление, внимание, технологии, творечество, системы, планирование.',
+  description: 'Статьи для осознания себя со стороны. Мышление, внимание, технологии, творчество, системы и планирование.',
   socialImageTitle: 'Такая Мета',
-  socialImageSubtitle: '',
+  socialImageSubtitle: 'Блог о фокусе, потреблении и мышлении»',
 
   // social usernames (optional)
   twitter: 'somartyn',
