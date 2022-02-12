@@ -66,6 +66,7 @@ module.exports = {
     '/consumption-manifest': '3fd526745e9b4b8380e320f8c42992cc',
     '/refusing': '510decd7cbe647ee9f9cc46d409f933e',
     '/about-martyn': '2cf42d7feb0141eeb82b25cb2c773537',
-    '/about': 'f59b55e86351417586b9f142cb016c5e'
+    '/about': 'f59b55e86351417586b9f142cb016c5e',
+    '/resume': 'b4cf8e86c55143aa887051f12abe1391',
   }
 }
