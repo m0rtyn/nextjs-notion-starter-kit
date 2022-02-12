@@ -32,7 +32,6 @@ import { PageHead } from './PageHead'
 import { PageActions } from './PageActions'
 import { Footer } from './Footer'
 import { PageSocial } from './PageSocial'
-import { GitHubShareButton } from './GitHubShareButton'
 import { ReactUtterances } from './ReactUtterances'
 
 import styles from './styles.module.css'
@@ -124,10 +123,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
   const canonicalPageUrl =
     !config.isDev && getCanonicalPageUrl(site, recordMap)(pageId)
 
-  // const isRootPage =
-  //   parsePageId(block.id) === parsePageId(site.rootNotionPageId)
-  // const isBlogPost =
-  //   block.type === 'page' && block.parent_table === 'collection'
   const isBlogPost =
     block.type === 'page' &&
     (block.parent_table === 'block' || block.parent_table === 'collection')
@@ -283,8 +278,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
           />
         }
       />
-
-      <GitHubShareButton />
     </TwitterContextProvider>
   )
 }

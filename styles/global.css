@@ -42,6 +42,6 @@ h1, .title {
   font-width: bold;
 }
 
-h1, h2, h3, h4, .title {
+h1, .title {
   font-family: 'Anonymous Pro', Menlo, 'Courier New', Monaco, 'PT Mono', monospace;
 }

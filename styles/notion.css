@@ -74,6 +74,11 @@
 .notion-collection-card {
   border-radius: 16px;
   box-shadow: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.notion-collection-card:hover {
+  box-shadow: 0 0 0 8px var(--notion-color-gray);
 }
 
 .notion-collection-card-cover img {
