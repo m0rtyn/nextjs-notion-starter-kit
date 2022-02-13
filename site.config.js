@@ -68,5 +68,6 @@ module.exports = {
     '/about-martyn': '2cf42d7feb0141eeb82b25cb2c773537',
     '/about': 'f59b55e86351417586b9f142cb016c5e',
     '/resume': 'b4cf8e86c55143aa887051f12abe1391',
+    '/how-to-vscode': 'Visual-Studio-Code-ac3d5c1ea52e4473890ac657d3248e22'
   }
 }
