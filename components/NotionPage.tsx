@@ -143,7 +143,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     getPageDescription(block, recordMap) ?? config.description
 
   let comments: React.ReactNode = null
-  let pageAside: React.ReactChild = null
+  let pageAside: React.ReactNode = null
 
   // only display comments and page actions on blog post pages
   if (isBlogPost) {
