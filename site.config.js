@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '6153888c7b1d4a4e9475033cbb890098',
+  rootNotionPageId: '28d123917b934d3eb7b1834e94179434',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -68,6 +68,7 @@ module.exports = {
     '/about-martyn': '2cf42d7feb0141eeb82b25cb2c773537',
     '/about': 'f59b55e86351417586b9f142cb016c5e',
     '/resume': 'b4cf8e86c55143aa887051f12abe1391',
-    '/how-to-vscode': 'Visual-Studio-Code-ac3d5c1ea52e4473890ac657d3248e22'
+    '/how-to-vscode': 'Visual-Studio-Code-ac3d5c1ea52e4473890ac657d3248e22',
+    '/how-to-motion': 'Notion-3b9ea4bc5e4e4765a7cbc9bb37b8f706'
   }
 }
