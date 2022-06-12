@@ -372,7 +372,7 @@
 
 .notion-page-icon-hero.notion-page-icon-image span,
 .notion-page-icon-hero.notion-page-icon-image img {
-  border-radius: 50%;
+  border-radius: 50% !important;
 }
 
 .notion-header {
