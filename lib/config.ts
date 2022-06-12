@@ -203,4 +203,4 @@ function invertPageUrlOverrides(
   }, {})
 }
 
-export const fontFamily: string = getSiteConfig('fontFamily')
+// export const fontFamily: string = getSiteConfig('fontFamily')

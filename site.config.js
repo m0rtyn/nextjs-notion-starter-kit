@@ -1,6 +1,8 @@
-module.exports = {
-  // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '6153888c7b1d4a4e9475033cbb890098',
+import { siteConfig } from './lib/site-config'
+
+export default siteConfig({
+  // the site's root Notion page (required)
+  rootNotionPageId: '28d123917b934d3eb7b1834e94179434',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -48,10 +50,10 @@ module.exports = {
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   pageUrlOverrides: {
-    // '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
+    '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
     '/how-to-telegram': '46178f7d27af48cdb010db70f6c98a28',
     '/martyn-talks': '782a5fea22a4480bba8bc7b38a6be099',
-    '/sleep-deprivation-pandemic': '22b9a1e384e54d9f96efbde5d52f77b1',
+    // '/sleep-deprivation-pandemic': '22b9a1e384e54d9f96efbde5d52f77b1',
     '/no-more-immortality': 'f5abb96118e74d23b134e5ddf6d92b4e',
     '/more-wrong': 'c7155f03b0d04987a88d9bbb589b8a98',
     '/derzhites': '3635e076096a4039b0c2a415a6c7bbf6',
@@ -71,5 +73,6 @@ module.exports = {
     '/about-martyn': '2cf42d7feb0141eeb82b25cb2c773537',
     '/about': 'f59b55e86351417586b9f142cb016c5e',
     '/resume': 'b4cf8e86c55143aa887051f12abe1391',
+    '/how-to-motion': 'Notion-3b9ea4bc5e4e4765a7cbc9bb37b8f706'
   }
-}
+})
