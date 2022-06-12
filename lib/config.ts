@@ -52,6 +52,7 @@ export const author: string = getSiteConfig('author')
 export const domain: string = getSiteConfig('domain')
 export const description: string = getSiteConfig('description', 'Notion Blog')
 export const language: string = getSiteConfig('language', 'en')
+export const fontFamily: string = getSiteConfig('fontFamily')
 
 // social accounts
 export const twitter: string | null = getSiteConfig('twitter', null)
@@ -141,7 +142,8 @@ export const site: Site = {
   name,
   rootNotionPageId,
   rootNotionSpaceId,
-  description
+  description,
+  fontFamily,
 }
 
 export const fathomId = isDev ? null : process.env.NEXT_PUBLIC_FATHOM_ID
@@ -203,5 +205,3 @@ function invertPageUrlOverrides(
     }
   }, {})
 }
-
-export const fontFamily: string = getSiteConfig('fontFamily')

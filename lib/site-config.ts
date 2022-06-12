@@ -26,6 +26,8 @@ export interface SiteConfig {
   isRedisEnabled?: boolean
   isSearchEnabled?: boolean
 
+  fontFamily?: string
+
   includeNotionIdInUrls?: boolean
   pageUrlOverrides?: types.PageUrlOverridesMap
   pageUrlAdditions?: types.PageUrlOverridesMap

@@ -22,6 +22,10 @@ export const PageHead: React.FC<
 
   return (
     <Head>
+      <link
+        rel="stylesheet"
+        href='https://fonts.googleapis.com/css?family=Anonymous+Pro&display=swap'
+      />
       <meta charSet='utf-8' />
       <meta httpEquiv='Content-Type' content='text/html; charset=utf-8' />
       <meta
