@@ -20,8 +20,8 @@ export default siteConfig({
   twitter: 'somartyn',
   github: 'm0rtyn',
   linkedin: 'martyns0n',
-  // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  newsletter: 'http://eepurl.com/h4lbqf',
+  youtube: 'channel/UCPE-DYC7ifz-BK47nm6VKHA', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
