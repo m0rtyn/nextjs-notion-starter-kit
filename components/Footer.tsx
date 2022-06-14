@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
+import { FaTelegram } from '@react-icons/all-files/fa/FaTelegram'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
@@ -59,6 +60,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaTwitter />
+          </a>
+        )}
+
+        {config.telegram && (
+          <a
+            className={styles.twitter}
+            href={`https://t.me/${config.telegram}`}
+            title={`Telegram @${config.telegram}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaTelegram />
           </a>
         )}
 

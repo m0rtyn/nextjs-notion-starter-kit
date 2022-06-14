@@ -56,6 +56,7 @@ export const fontFamily: string = getSiteConfig('fontFamily')
 
 // social accounts
 export const twitter: string | null = getSiteConfig('twitter', null)
+export const telegram: string | null = getSiteConfig('telegram', null)
 export const github: string | null = getSiteConfig('github', null)
 export const youtube: string | null = getSiteConfig('youtube', null)
 export const linkedin: string | null = getSiteConfig('linkedin', null)
