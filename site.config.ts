@@ -78,11 +78,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'О Блоге',
-      pageId: 'about-f59b55e86351417586b9f142cb016c5e'
+      pageId: 'f59b55e86351417586b9f142cb016c5e'
     },
     {
       title: 'О Мартыне',
-      pageId: 'martyn-2cf42d7feb0141eeb82b25cb2c773537'
+      pageId: '2cf42d7feb0141eeb82b25cb2c773537'
     }
   ]
 })
