@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Martyn',
 
   // open graph metadata (optional)
-  description: 'Статьи для осознания себя со стороны. Мышление, внимание, технологии, творчество, системы и планирование.',
+  description: 'Notes on learning about the world from the outside: brain and thinking, programming and planning, rationality and emotion.',
 
   // social usernames (optional)
   // twitter: 'somartyn',
@@ -77,11 +77,11 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
-      title: 'О Блоге',
+      title: 'About',
       pageId: 'f59b55e86351417586b9f142cb016c5e'
     },
     {
-      title: 'О Мартыне',
+      title: 'Martyn',
       pageId: '2cf42d7feb0141eeb82b25cb2c773537'
     }
   ]
