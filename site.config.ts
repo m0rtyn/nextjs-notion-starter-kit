@@ -43,8 +43,8 @@ export default siteConfig({
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
-  pageUrlOverrides: null,
-  // pageUrlOverrides: {
+  // pageUrlOverrides: null,
+  pageUrlOverrides: {
     // '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
     // '/how-to-telegram': '46178f7d27af48cdb010db70f6c98a28',
     // '/martyn-talks': '782a5fea22a4480bba8bc7b38a6be099',
@@ -65,12 +65,12 @@ export default siteConfig({
     // '/how-to-smart-status-of-notion-project': 'Notion-1864c1b8c47a4aea8539a3750ee55c3f',
     // '/consumption-manifest': '3fd526745e9b4b8380e320f8c42992cc',
     // '/refusing': '510decd7cbe647ee9f9cc46d409f933e',
-    // '/about-martyn': '2cf42d7feb0141eeb82b25cb2c773537',
-    // '/about': 'f59b55e86351417586b9f142cb016c5e',
     // '/resume': 'b4cf8e86c55143aa887051f12abe1391',
     // '/how-to-vscode': 'Visual-Studio-Code-ac3d5c1ea52e4473890ac657d3248e22',
     // '/how-to-motion': 'Notion-3b9ea4bc5e4e4765a7cbc9bb37b8f706'
-  // },
+    '/about-martyn': 'About-Martyn-2cf42d7feb0141eeb82b25cb2c773537',
+    '/about': 'About-f59b55e86351417586b9f142cb016c5e',
+  },
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
