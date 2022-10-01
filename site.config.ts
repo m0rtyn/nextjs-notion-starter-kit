@@ -43,6 +43,7 @@ export default siteConfig({
 
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
+  pageUrlOverrides: null,
   // pageUrlOverrides: {
     // '/no-more-qwerty': 'QWERTY-d137de069dde4e33a615705e1d25b140',
     // '/how-to-telegram': '46178f7d27af48cdb010db70f6c98a28',
@@ -78,11 +79,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: 'About-f59b55e86351417586b9f142cb016c5e'
+      pageId: 'f59b55e86351417586b9f142cb016c5e'
     },
     {
       title: 'Martyn',
-      pageId: 'About-Martyn-2cf42d7feb0141eeb82b25cb2c773537'
+      pageId: '2cf42d7feb0141eeb82b25cb2c773537'
     }
   ]
 })
