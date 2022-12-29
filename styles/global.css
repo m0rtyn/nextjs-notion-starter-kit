@@ -34,9 +34,7 @@ body {
   width: 1.2em !important;
 }
 
-/* fonts */
-
-h1, .title {
-  font-width: bold;
-  font-family: 'Anonymous Pro', Menlo, 'Courier New', Monaco, 'PT Mono', monospace;
+.searchInput {
+  color: var(--fg-color);
+  caret-color: var(--fg-color);
 }
