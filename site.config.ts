@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'Martyn',
 
   // open graph metadata (optional)
-  description: 'Notes on learning about the world from the outside: brain and thinking, programming and planning, rationality and emotion.',
+  description: 'Notes on learning about the world: a brain and thinking, programming and planning, rationality and emotions.',
 
   // social usernames (optional)
   // twitter: 'somartyn',

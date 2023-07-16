@@ -61,9 +61,7 @@ export default class MyDocument extends Document {
     localStorage.setItem(storageKey, JSON.stringify(isDarkMode))
   }
 })();
-`
-              }}
-            />
+`}} />
             <Main />
 
             <NextScript />
